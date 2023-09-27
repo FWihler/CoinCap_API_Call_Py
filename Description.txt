@@ -1,0 +1,13 @@
+Description:
+
+This Python script retrieves cryptocurrency price data from
+the CoinCap API, organizes it into a CSV file, and schedules its execution daily
+at 4:20 PM using the Windows Task Scheduler.
+
+Features:
+
+Utilizes the CoinCap API to fetch real-time cryptocurrency price data.
+Captures the current date, time, and day of the week for data logging.
+Creates a unique CSV file with the day of the week and timestamp in the filename.
+Appends the retrieved data to the CSV file, including cryptocurrency symbol, name, price in USD, generated date, time, and the day of the week.
+Schedules daily execution at 4:20 PM using the Windows Task Scheduler for automated data collection.
